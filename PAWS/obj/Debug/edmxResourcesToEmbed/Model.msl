@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbPawsModelStoreContainer" CdmEntityContainer="dbPawsEntities">
+    <FunctionImportMapping FunctionImportName="GetPaymentReport" FunctionName="dbPawsModel.Store.GetPaymentReport">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="dbPawsModel.GetPaymentReport_Result">
+          <ScalarProperty Name="transno" ColumnName="transno" />
+          <ScalarProperty Name="pcode" ColumnName="pcode" />
+          <ScalarProperty Name="pspecies" ColumnName="pspecies" />
+          <ScalarProperty Name="qty" ColumnName="qty" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="total" ColumnName="total" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
